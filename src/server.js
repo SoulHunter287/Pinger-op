@@ -19,4 +19,4 @@ setInterval(async () => {
     const response = await fetch('https://uttermost-stump-textbook.glitch.me/');
     console.log(`Status - ${response.status}`);
     status = response.status;
-}, 12e4);
+}, 30e4);
