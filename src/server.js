@@ -16,7 +16,7 @@ const port = process.env.PORT || 4200;
 app.listen(port);
 console.log(port);
 setInterval(async () => {
-    const response = await fetch('https://uttermost-stump-textbook.glitch.me/');
+    const response = await fetch('your glitch');
     console.log(`Status - ${response.status}`);
     status = response.status;
 }, 30e4);
